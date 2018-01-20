@@ -1,3 +1,5 @@
+
+
 // Rewriting this code using "map()" & "filder()"
 /*let numbers = [1, 2, 3, 4];
 let newNumbers = [];
@@ -84,10 +86,3 @@ console.log(perHourTask);
 //2.5:- Output a formatted Euro amount.
 let euroSign=task.map((amount) => '€')
 console.log(euroSign);
-
-
-
-
-
-
-
