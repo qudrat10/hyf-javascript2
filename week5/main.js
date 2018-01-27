@@ -1,5 +1,3 @@
-
-
 // Rewriting this code using "map()" & "filder()"
 /*let numbers = [1, 2, 3, 4];
 let newNumbers = [];
@@ -11,14 +9,13 @@ for(let i = 0; i < numbers.length; i++) {
   }
 console.log("The doubled numbers are", newNumbers); // [2, 6]*/
 
-// Rewrite code 
+// Rewrite the above program using map and filter don't forget to use => */ 
+
 let numbers = [1, 2, 3, 4];
 
-let newNumbers=numbers.filter(number => (number %2));
+let newNumbers = numbers.filter( number => (number %2) !==0);
 
-//Let newNumbers=numbers.map(number => number%2);
-
-console.log("The doubled numbers are", newNumbers);/* [2, 6]*/
+Let mapValue = numbers.map(mulNum => malNum *2);
 
 
 //2 Collect two days' worth of tasks.
@@ -86,3 +83,10 @@ console.log(perHourTask);
 //2.5:- Output a formatted Euro amount.
 let euroSign=task.map((amount) => '€')
 console.log(euroSign);
+
+
+
+
+
+
+
