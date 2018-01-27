@@ -83,10 +83,3 @@ console.log(perHourTask);
 //2.5:- Output a formatted Euro amount.
 let euroSign=task.map((amount) => '€')
 console.log(euroSign);
-
-
-
-
-
-
-
