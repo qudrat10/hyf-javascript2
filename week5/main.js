@@ -15,9 +15,11 @@ let numbers = [1, 2, 3, 4];
 
 let newNumbers = numbers.filter( number => (number %2) !==0);
 
-Let mapValue = numbers.map(mulNum => malNum *2);
+console.log("New numbers in new array are:-" + newNumbers);
 
+let mapValue = newNumbers.map(mulNum => mulNum * 2);
 
+console.log("The new map array values are:-" + mapvalue);
 //2 Collect two days' worth of tasks.
 
 let monday = [
